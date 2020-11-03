@@ -1,1 +1,167 @@
-/* No CSS *//*# sourceMappingURL=jumia.css.map */
+body {
+  background: orange;
+  font-family: sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+  padding: 10px;
+}
+
+header #company {
+  color: orange;
+  font-size: 20px;
+}
+
+header input {
+  border: 1px solid black;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: orangered;
+  border-width: 3px;
+}
+
+header #search-btn {
+  color: white;
+  font-size: 20px;
+  padding: 5px 5px;
+  border: 1px;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+header #login,
+header #help,
+header #cart {
+  z-index: 1;
+  cursor: pointer;
+}
+
+header #cart:hover {
+  color: orangered;
+}
+
+header #help:hover {
+  color: orangered;
+}
+
+header #login:hover {
+  color: orangered;
+}
+
+header #cart p:hover {
+  color: orangered;
+}
+
+header #help p:hover {
+  color: orangered;
+}
+
+header #login p:hover {
+  color: orangered;
+}
+
+header #login-det,
+header #help-det,
+header #cart-det {
+  z-index: 1;
+  background-color: #d2d2e4;
+  position: absolute;
+  color: #0a0a0a;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+header #login-det p {
+  border-bottom: 1px solid white;
+}
+
+header #help-det button {
+  width: 90%;
+  color: white;
+  background: orange;
+  font-size: 20px;
+  border: 1px solid;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container #nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  border: 2px solid white;
+  font-size: 20px;
+  margin-left: 0px;
+  margin: 0 auto;
+}
+
+.container li {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  -webkit-transition: all 500ms  ease;
+  transition: all 500ms  ease;
+  text-transform: lowercase;
+}
+
+.container #nav-ul :hover {
+  cursor: pointer;
+  color: orangered;
+}
+
+.container #home {
+  width: 50%;
+  margin: auto;
+  font-size: 40px;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container #stay {
+  color: orangered;
+  background-color: white;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  padding: 10px;
+  -webkit-box-shadow: 1px 2px 3px 4px #a87c58;
+          box-shadow: 1px 2px 3px 4px #a87c58;
+}
+
+.container #items-placeholder {
+  width: 100%;
+  background-color: #e2cdcd;
+  padding: 30px;
+  /*  background-image: url("images/gg.jpg"); */
+}
+/*# sourceMappingURL=jumia.css.map */
