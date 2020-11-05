@@ -20,6 +20,7 @@ header {
 header #company {
   color: orange;
   font-size: 20px;
+  font-weight: 600;
 }
 
 header input {
@@ -104,7 +105,12 @@ header #help-det button {
           flex-direction: row;
 }
 
+.container #nav {
+  background: white;
+}
+
 .container #nav-ul {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,5 +169,10 @@ header #help-det button {
   background-color: #e2cdcd;
   padding: 30px;
   /*  background-image: url("images/gg.jpg"); */
+}
+
+#items-placeholder {
+  list-style: upper-roman;
+  color: red;
 }
 /*# sourceMappingURL=jumia.css.map */
